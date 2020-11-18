@@ -52,8 +52,3 @@ def Days_btwn_dates(month1,day1,year1,month2,day2,year2):
     
     total_days = days_inbet_years + day_after_day1 + day_before_day2
     return total_days
-
-test1 = Days_btwn_dates(5,26,1993,11,17,2020)
-print("Test 1 : {}".format(test1))
-test2 = Days_btwn_dates(5,25,2004,5,25,2004)
-print("Test 2 : {}".format(test2))
