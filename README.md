@@ -12,7 +12,7 @@ day2 = 2
 month2 = 1
 year2 = 2020
 
-days = Days_btwn_dates(Day1,Month1,Year1,Day2,Month2,Year2)
+days = Days_btwn_dates(month1,day1,year1,month2,day2,year2)
 print("Days = {}".format(days))
 >> Days = 1
 ```
